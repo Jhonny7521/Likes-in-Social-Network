@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+header{
+    background-color: black;
+    margin: 0px auto;
+    padding: 5px 20px;
+    width: 515px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+header h1{
+    color: white;
+}
+
+.container{
+    width: 515px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.header {
+    margin: 5px auto;
+}
+
+.body {
+    margin: 0px auto;
+    /* border: 2px solid black; */
+    width: 515px;
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tarjetaId {
+    width: 160px;
+    height: 210px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjetaId p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.postContainer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post{
+    width: 330px;
+    height: 110px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+
+.row01 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.col01{
+    padding: 0px 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.col02 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 150px;
+    padding: 0px 15px;
+}
+
+.col02 p{
+    /* font-size: 20pz; */
+}
+
+.col02 button{
+    background-color: yellow;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    width: 50px;
+    height: 25px;
+    font-size: 16px;
+}
+
+.row02{
+    padding: 5px 10px 5px 20px;
+    /* font-size: 18px; */
+}
+a{
+    color: dodgerblue;
+}

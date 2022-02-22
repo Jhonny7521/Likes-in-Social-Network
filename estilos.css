@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.body{
+    width: 350px;
+    height: 110px;
+    border: 2px solid black;
+    margin: 30px auto;
+    box-sizing: border-box;
+}
+
+.row01 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.col01{
+    padding: 0px 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.col02 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 150px;
+    padding: 0px 15px;
+}
+
+.col02 p{
+    /* font-size: 20pz; */
+}
+
+.col02 button{
+    background-color: yellow;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    width: 50px;
+    height: 25px;
+    font-size: 16px;
+}
+
+.row02{
+    padding: 5px 20px;
+}

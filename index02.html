@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="estilos02.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Network</h1>
+    </header>
+    <div class="container">
+        <div class="header">
+            <h1> Your Feed </h1>
+        </div>
+        <div class="body">
+            <div class="tarjetaId">
+                <img src="./img/user.png" alt="imagen de ID">
+                <a href="#">Add an avatar</a>
+                <p>James Doe</p>
+            </div>
+            <div class="postConteiner">
+                <div class="post">
+                    <div class="row01">
+                        <div class="col01">
+                            <p>Neil M</p>
+                        </div>
+                        <div class="col02">
+                             <p><spam id="numLikesPost01">0</spam> like(s)</p>
+                             <button onclick="likeFunction(this)" id="idPost01">Like</button>
+                        </div>
+                    </div>
+                    <div class="row02">
+                        <p>I just set up this new discord bot, let me<br>know what you all think. <a href="#"> link </a></p>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="row01">
+                        <div class="col01">
+                            <p>Nichole K</p>
+                        </div>
+                        <div class="col02">
+                             <p><spam id="numLikesPost02">0</spam> like(s)</p>
+                             <button onclick="likeFunction(this)" id="idPost02">Like</button>
+                        </div>
+                    </div>
+                    <div class="row02">
+                        <p>Jus finished my <a href="#"> next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="row01">
+                        <div class="col01">
+                            <p>Jim R</p>
+                        </div>
+                        <div class="col02">
+                             <p><spam id="numLikesPost03">0</spam> like(s)</p>
+                             <button onclick="likeFunction(this)" id="idPost03">Like</button>
+                        </div>
+                    </div>
+                    <div class="row02">
+                        <p>I can't stop listening to the <a href="#"> new album</a>. <br>Who else is liking it</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script02.js"></script>
+</body>
+</html>
